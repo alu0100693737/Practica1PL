@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title> JavaScript Convertor de temperatura </title>
+
+		<!-- Estilo de la pagina web hecho en global.css -->
+		
+		<link rel="stylesheet" href="global.css">
+
+		<!-- script para calcular la temperatura.js -->
+
+		<script type= "text/javascript" src="temperatura,js"></script>
+	</head>
+
+	<body>
+		
+		<hr size="15" />
+
+		<!-- Convertor de temperatura -->
+
+		<h1> Convertor de Temperatura </h1>
+
+		<table>
+			<tr>
+				<th> Introduzca la Temperatura a convertir (ejemplo: 32F, 0C, -3.6f):</th>
+				
+				<td><input id= "original" onchange= "calculate();" placeholder="0C" size=50"></td>
+
+			</tr>
+
+			<tr>
+				<th> Temperatura convertida:</th>
+				<td><span class="output" id="converted"></span></td>
+			</tr>
+
+		</table>
+		
+		<h5> Practica desarrollada por Iván García Campos. <em>Procesadores de Lenguaje</em>
+		<hr size="15" />
+	</body>
+
+</html>
