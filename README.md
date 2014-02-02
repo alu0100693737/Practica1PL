@@ -8,3 +8,37 @@ Lo primero que debemos realizar, es el formato de la página web. Para ello, se 
 
 Se ha utilizado para la realizacion de la practica las guias que el profesor nos ha ofrecido.
 
+Para la realizacion de los test se ha tenido que instalar:
+
+  nodejs
+  npm
+  mocha
+  chai
+  
+  los comandos han sido los siguientes:
+  
+  Para instalar nodejs:
+  
+  sudo apt-get install python-software-properties
+  
+  sudo add-apt-repository ppa:chris-lea/node.js
+  
+  sudo apt-get update
+  
+  sudo apt-get install nodejs
+  
+  Para instalar npm:
+  
+  sudo apt-get install npm
+  
+  Para instalar mocha y chai:
+  
+  npm install -g mocha
+  
+  npm install -g chai
+  
+  Para comprobar si estan instaladas todas las herramientas se utilizara:
+  
+  which y el nombre de la herramienta.
+  
+  
