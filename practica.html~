@@ -8,7 +8,7 @@
 
 		<!-- script para calcular la temperatura.js -->
 
-		<script type= "text/javascript" src="temperatura.js"></script>
+		<script type= "text/javascript" src="temperatura,js"></script>
 	</head>
 
 	<body>
